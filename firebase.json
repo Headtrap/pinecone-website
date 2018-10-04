@@ -8,8 +8,16 @@
     ],
     "rewrites": [
       {
-        "source": "**",
+        "source": "/pt/**",
         "destination": "/index.html"
+      },
+      {
+        "source": "/en/**",
+        "destination": "/en.html"
+      },
+      {
+        "source": "/es/**",
+        "destination": "/es.html"
       }
     ]
   }
